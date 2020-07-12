@@ -1,14 +1,14 @@
 package com.example.chat;
 
-public class FriendlyMessage {
+public class Message {
     private String text;
     private String name;
     private String photoUrl;
 
-    public FriendlyMessage() {
+    public Message() {
     }
 
-    public FriendlyMessage(String text, String name, String photoUrl) {
+    public Message(String text, String name, String photoUrl) {
         this.text = text;
         this.name = name;
         this.photoUrl = photoUrl;
